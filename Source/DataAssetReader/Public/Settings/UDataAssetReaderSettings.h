@@ -20,7 +20,7 @@ public:
 	/*
 	 * Your Data Asset Folder Path"
 	 */
-	UPROPERTY(EditAnywhere,BlueprintReadOnly, config, Category = "Jira Settings")
+	UPROPERTY(EditAnywhere,BlueprintReadOnly, config, Category = "Data Asset Settings")
 	FString DataAssetPath;
 
 #if WITH_EDITOR
