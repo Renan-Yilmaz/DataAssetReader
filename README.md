@@ -11,10 +11,6 @@ This plugin allow you to read and modify all data asset of your game directly in
 
 Install plugin by drag and dropping the Data asset editor root folder inside your Plugins project directory
 
-.../.../[YOURPROJECT]/Plugins
-
-https://github.com/Renan-Yilmaz/DataAssetReader/blob/main/ReadmeImage/PluginFolder.png?raw=true
-    
 
 ## Project Settings
 
