@@ -28,7 +28,9 @@ Inside the project Settings in unreal engine you will have a new category called
 
 ## How to use
 Inside the content folder of the plugin you will find multiple Editor utility widget you can open the Data Asset Reader after the setup of the path inside the project setting and then access your data asset directly in the tool
-
+![ShowPluginContent](Docs/Images/ShowPluginContent.png)
+![PluginContent](Docs/Images/PluginContent.png)
+![RunWidget](Docs/Images/RunWidget.png)
 
 ## Authors
 
