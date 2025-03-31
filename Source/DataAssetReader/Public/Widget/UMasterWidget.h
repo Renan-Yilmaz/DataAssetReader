@@ -38,7 +38,7 @@ private:
 	TSubclassOf<UCategoryRow> CategoryRow;
 
 	UPROPERTY(EditAnywhere,BlueprintReadWrite,Category="DataAsset Reader",meta=(AllowPrivateAccess))
-	UDataAsset* DataAsset;
+	UObject* Object;
 	
 	UPROPERTY(EditAnywhere,BlueprintReadWrite,Category="DataAsset Reader",meta=(AllowPrivateAccess))
 	UScrollBox* ScrollBox;

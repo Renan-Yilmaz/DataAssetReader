@@ -16,7 +16,7 @@ void UMasterWidget::NativeConstruct()
 
 void UMasterWidget::CreateTemplate()
 {
-		if (!ScrollBox || !CategoryRow || !TemplateForProperty || !DataAsset)
+		if (!ScrollBox || !CategoryRow || !TemplateForProperty || !Object)
 	{
 		UE_LOG(LogTemp, Warning, TEXT("Missing one of this params :  ScrollBox / CategoryRow / TemplateForProperty / DataAsset"));
 	}
@@ -31,8 +31,8 @@ void UMasterWidget::CreateTemplate()
 		UParamRow* ParamWidget = Cast<UParamRow>(NewWidget);
 		ParamWidget->DetailsView->bAllowFiltering = true;
 		ParamWidget->WidgetParent = this;
-		ParamWidget->CurrentDataAsset = DataAsset;
-		for (TFieldIterator<FProperty> PropIt(DataAsset->GetClass()); PropIt; ++PropIt)
+		ParamWidget->CurrentObject = Object;
+		for (TFieldIterator<FProperty> PropIt(Object->GetClass()); PropIt; ++PropIt)
 		{
 			FString Name = PropIt->GetName();
 			if (Name != "NativeClass")

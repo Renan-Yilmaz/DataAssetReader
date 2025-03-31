@@ -5,7 +5,7 @@
 	"FriendlyName": "DataAssetReader",
 	"Description": "",
 	"Category": "Other",
-	"CreatedBy": "Reyz",
+	"CreatedBy": "Renan Yilmaz",
 	"CreatedByURL": "",
 	"DocsURL": "",
 	"MarketplaceURL": "",
@@ -18,6 +18,12 @@
 			"Name": "DataAssetReader",
 			"Type": "Editor",
 			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "EditorScriptingUtilities",
+			"Enabled": true
 		}
 	]
 }

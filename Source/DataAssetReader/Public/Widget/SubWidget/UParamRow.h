@@ -27,7 +27,7 @@ public:
 	class UTextBlock* VariableTitle = nullptr;
 
 	UPROPERTY(BlueprintReadOnly,Category="DataAsset Reader")
-	UDataAsset* CurrentDataAsset;
+	UObject* CurrentObject;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, meta = (BindWidget),Category="DataAsset Reader")
 	USinglePropertyView* PropertyView;
