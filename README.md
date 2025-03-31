@@ -10,6 +10,7 @@ This plugin allow you to read and modify all data asset of your game directly in
 ## Installation
 
 Install plugin by drag and dropping the Data asset editor root folder inside your Plugins project directory
+![PluginFolder](Docs/Images/PluginFolder.png)
 
 
 ## Project Settings
