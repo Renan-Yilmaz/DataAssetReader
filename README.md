@@ -1,5 +1,7 @@
 
 # Data Asset Reader
+Unreal Engine 5.5
+
 This plugin allow you to read and modify all data asset of your game directly inside one window without opening multiple data asset 
 
 
