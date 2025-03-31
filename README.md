@@ -13,7 +13,7 @@ Install plugin by drag and dropping the Data asset editor root folder inside you
 
 .../.../[YOURPROJECT]/Plugins
 
-https://github.com/Renan-Yilmaz/DataAssetReader/blob/ReadMeImage/PluginFolder.png?raw=true
+https://github.com/Renan-Yilmaz/DataAssetReader/blob/main/ReadmeImage/PluginFolder.png?raw=true
     
 
 ## Project Settings
